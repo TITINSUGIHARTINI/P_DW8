@@ -1,7 +1,7 @@
 # P_DW8
 Mata Kuliah Desain Web 
 
-##1.	document.getElementById('registrationForm').addEventListener('submit', function(event)##
+1.	document.getElementById('registrationForm').addEventListener('submit', function(event)
 { Ini adalah bagian pertama dari kode yang berarti Anda menambahkan event listener untuk mengawasi saat formulir diajukan (submitted). Ketika pengguna mengklik tombol "Daftar" pada formulir (dengan id "registrationForm"), kode dalam fungsi ini akan dieksekusi.
 2.	event.preventDefault(); Ini adalah perintah pertama dalam fungsi event listener. Ini mencegah formulir dari pengiriman otomatis (refresh halaman) saat tombol "Daftar" ditekan. Sebagai gantinya, kode JavaScript akan menangani validasi dan pengiriman data.
 3.	Validasi Nama:
